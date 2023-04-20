@@ -30,7 +30,7 @@ class MessengerAppView(EdxFragmentView):
         }
 
         html = render_to_string(
-            'gwchat_chat/gwchat_tab.html', context, )
+            'messengerapp_chat/messengerapp_tab.html', context, )
 
         fragment = Fragment(html)
         return fragment
