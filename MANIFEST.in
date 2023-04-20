@@ -1,0 +1,4 @@
+include LICENSE.txt
+include README.md
+recursive-include messenger_tab/templates *
+recursive-include messenger_tab/static *
